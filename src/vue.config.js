@@ -1,6 +1,8 @@
+const { resolve } = require("core-js/fn/promise");
+
 module.exports={
     configureWebpack:{
-        resole:{
+        resolve:{
             alias:{
                 'assets':'@/assets',
                 'common':'@/common',
