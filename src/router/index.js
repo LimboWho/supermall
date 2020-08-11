@@ -12,7 +12,7 @@ const Profile=()=>import('../views/profile/Profile.vue');
 const routes=[
     {
       path:'',
-      redirect:'/home'  
+      redirect:'/home'
     },
     {
         path:'/home',

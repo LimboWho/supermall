@@ -1,4 +1,3 @@
-const { resolve } = require("core-js/fn/promise");
 
 module.exports={
     configureWebpack:{
@@ -8,7 +7,9 @@ module.exports={
                 'common':'@/common',
                 'components':'@/components',
                 'network':'@/network',
+                'views':'@/views'
             }
         }
     }
 }
+
